@@ -1,0 +1,14 @@
+[workspace]
+
+members = [
+    "ir",
+    "parser",
+    "checker",
+    "disasm",
+    "iced-asm",
+    "poc/veriwasm_proofgen",
+    "poc/lfence",
+]
+
+[patch.crates-io]
+yaxpeax-x86 = { git = "https://github.com/agoraverifier/yaxpeax-x86", rev = "356ee47d0c4fdb8be609a397ca5fefffddcc0c7c"}
